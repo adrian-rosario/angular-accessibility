@@ -21,9 +21,9 @@ import { ShopComponent } from './shop/shop.component';
 
 // TODO: #4. Define unique page titles
 const routes: Routes = [
-  { path: 'shop', component: ShopComponent },
-  { path: 'about', component: AboutComponent },
-  { path: 'locate', component: LocationComponent },
+  { path: 'shop', component: ShopComponent, title: 'Our Shop - A11y in Angular' },
+  { path: 'about', component: AboutComponent, title: 'About Us - A11y in Angular' },
+  { path: 'locate', component: LocationComponent, title: 'Find Us - A11y in Angular' },
   { path: '',   redirectTo: '/shop', pathMatch: 'full' },
   { path: '**', component: ShopComponent },
 ];
